@@ -1,0 +1,45 @@
+.banner {
+  background-size: cover;
+  background-position: center;
+  padding: 200px 0;
+}
+.banner h1 {
+  color: white;
+  opacity: .8;
+  text-shadow: 1px 1px 2px black, 0 0;
+}
+.banner p {
+  color: white;
+  opacity: .8;
+  text-shadow: 1px 1px 2px black, 0 0;
+}
+.btn1 {
+  opacity: .8;
+  padding: 16px 36px;
+  border-radius: 50px;
+  color: white;
+  outline: 0;
+  grid-gap: 8px;
+  align-items: center;
+  background: 0 0;
+  border: 1px solid #ffffff;
+  cursor: pointer;
+  display: inline-flex;
+  flex-shrink: 0;
+  font-size: 16px;
+  gap: 8px;
+  justify-content: center;
+  line-height: 1.5;
+  overflow: hidden;
+  text-decoration: none;
+  text-overflow: ellipsis;
+  transition: all .14s ease-out;
+  white-space: nowrap;
+}
+.btn1:hover {
+  box-shadow: 4px 4px 0 #ffffff;
+  transform: translate(-4px,-4px);
+}
+.btn1:focus-visible{
+  outline-offset: 1px;
+}
